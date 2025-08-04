@@ -1,0 +1,109 @@
+<!DOCTYPE html><html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Canada Post Tracking</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f3f4f6;
+      margin: 0;
+      padding: 0;
+    }
+    .container {
+      max-width: 700px;
+      margin: 30px auto;
+      padding: 20px;
+      background-color: #ffffff;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+      border-radius: 10px;
+    }
+    h1 {
+      color: #d71921;
+      text-align: center;
+    }
+    .tracking-info {
+      margin-top: 20px;
+    }
+    .status {
+      border-bottom: 1px solid #ddd;
+      padding: 10px 0;
+    }
+    .status strong {
+      color: #333;
+    }
+    .status p {
+      margin: 5px 0;
+    }
+    .held {
+      color: red;
+      font-weight: bold;
+    }
+    .customs-fee {
+      background-color: #fff3cd;
+      border: 1px solid #ffeeba;
+      padding: 10px;
+      margin-top: 20px;
+      border-radius: 6px;
+    }
+    .customs-fee h3 {
+      margin: 0 0 10px 0;
+      color: #856404;
+    }
+    .footer {
+      text-align: center;
+      margin-top: 40px;
+      color: #888;
+      font-size: 0.9em;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>Canada Post - Track Your Package</h1>
+    <div class="tracking-info">
+      <div class="status">
+        <strong>Tracking Number:</strong> CAX2025FX7853
+      </div>
+      <div class="status">
+        <strong>02:32 - 2025-08-04:</strong>
+        <p>Package Registered at Canada Post, Toronto Facility</p>
+      </div>
+      <div class="status">
+        <strong>04:32 - 2025-08-04:</strong>
+        <p>Departed Toronto Facility</p>
+      </div>
+      <div class="status">
+        <strong>06:32 - 2025-08-04:</strong>
+        <p>Arrived at Mississauga Transit Hub</p>
+      </div>
+      <div class="status">
+        <strong>07:32 - 2025-08-04:</strong>
+        <p>In Transit to U.S. Border</p>
+      </div>
+      <div class="status held">
+        <strong>08:32 - 2025-08-04:</strong>
+        <p>⛔ Held by Customs at Buffalo NY (Awaiting Clearance Fee)</p>
+      </div>
+      <div class="status">
+        <strong>08:42 - 2025-08-04:</strong>
+        <p>⚠️ Pending Recipient Action: Customs Fee $4,000</p>
+      </div>
+      <div class="customs-fee">
+        <h3>Customs Clearance Invoice</h3>
+        <table>
+          <tr><td>Inspection Fee:</td><td>$1,000</td></tr>
+          <tr><td>Cross-Border Handling:</td><td>$1,200</td></tr>
+          <tr><td>Luxury Goods Tax:</td><td>$1,300</td></tr>
+          <tr><td>Express Release Charge:</td><td>$500</td></tr>
+          <tr><td><strong>Total Due:</strong></td><td><strong>$4,000</strong></td></tr>
+        </table>
+        <p>Please contact Canada Border Services to settle your clearance fee immediately to avoid return shipment.</p>
+      </div>
+    </div>
+    <div class="footer">
+      Canada Post &copy; 2025 — This tracking system is for informational purposes only.
+    </div>
+  </div>
+</body>
+</html>
